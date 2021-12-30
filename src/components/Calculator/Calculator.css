@@ -1,0 +1,41 @@
+.container {
+  border: 3px solid rgb(168, 166, 166);
+  border-radius: 5px;
+  background-color: rgb(136, 131, 160);
+  padding: 20px 50px;
+}
+
+.calc_form {
+  color: rgb(194, 194, 194);
+}
+
+.calc_form h2 {
+  margin: 10px 10px;
+}
+
+.calc_form label, .operations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operation {
+  display: flex;
+  justify-content:right;
+}
+
+.operations button {
+  margin: 25px 10px;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  font-size: 1.5em;
+}
+
+.calculate {
+  border-radius: 10px;
+  border: 3px solid rgb(192, 192, 192);
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: rgb(9, 55, 61)
+}
