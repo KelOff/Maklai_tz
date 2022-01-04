@@ -5,7 +5,7 @@ import Calculator from './components/Calculator/Calculator';
 
 function App() {
 
-  const [ enabled, setEnabled ] = useState(true)
+  const [ enabled, setEnabled ] = useState(false)
 
   return (
     <div className="App">
