@@ -44,7 +44,7 @@ function Calculator () {
           First number: &nbsp;
           <input type="number" onChange={ ev1 }></input>
         </label>
-        <h2 className='operation'>{ operation }</h2>
+        <h2 className="operation">{ operation }</h2>
         <label>
           Second number: &nbsp;
           <input type="number" onChange={ ev2 }></input>
