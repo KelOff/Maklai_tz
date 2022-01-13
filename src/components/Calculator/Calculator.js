@@ -56,7 +56,7 @@ function Calculator () {
           <button className="times" onClick={ () => setOperation('*') }>*</button>
         </div>
         <input className="calculate" type="submit" value="Calculate" onClick={ handleSubmit } />
-        <h2>Result: {res}</h2>
+        <h2 className='result'>Result: {res}</h2>
       </form>
     </div>
   )

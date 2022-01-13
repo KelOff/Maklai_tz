@@ -1,12 +1,12 @@
 .container {
   border: 3px solid rgb(168, 166, 166);
   border-radius: 5px;
-  background-color: rgb(136, 131, 160);
+  background-color: rgb(168, 168, 168);
   padding: 20px 50px;
 }
 
 .calc_form {
-  color: rgb(194, 194, 194);
+  color: rgb(0, 0, 0);
 }
 
 .calc_form h2 {
@@ -17,10 +17,16 @@
   display: flex;
   justify-content: space-between;
 }
+.calc_form input {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 .operation {
+  color: rgb(250, 255, 177);
   display: flex;
-  justify-content:right;
+  justify-content:center;
 }
 
 .operations button {
@@ -33,9 +39,23 @@
 }
 
 .calculate {
+  display: flex;
   border-radius: 10px;
   border: 3px solid rgb(192, 192, 192);
   font-size: 1.2em;
   font-weight: bolder;
   color: rgb(9, 55, 61)
+}
+
+.result {
+  display: flex;
+  justify-content:center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
